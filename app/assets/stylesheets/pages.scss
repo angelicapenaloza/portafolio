@@ -1,0 +1,43 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ @import "bootstrap";
+
+header {
+	background-position: top;	
+	border-radius: 0px;
+	font-family: 'Pacifico', cursive;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 10px 0px;
+	
+
+}
+html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #title {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+    padding: 3px;
+    border: 1px solid #999;
+    font-family: sans-serif;
+  }
+  
+  #map{
+    height: 50%;
+    top: 24px;
+  }
+  
+   #hola{
+
+   
+   }
